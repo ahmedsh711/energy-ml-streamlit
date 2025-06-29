@@ -17,10 +17,10 @@ st.write("Predict renewable energy production based on your project details")
 @st.cache_resource
 def load_model():
     try:
-        model = joblib.load('model.pkl')
+        model = joblib.load('model_compressed.pkl')
         return model
     except:
-        st.error("Model file not found. Please make sure 'model.pkl' is in the same directory.")
+        st.error("Model file not found. Please make sure 'model_compressed.pkl' is in the same directory.")
         return None
 
 model = load_model()
@@ -103,4 +103,4 @@ if model is not None:
             st.error(f"Error making prediction: {str(e)}")
 
 else:
-    st.warning("Please ensure the trained model file 'model.pkl' is available to make predictions.")
+    st.warning("Please ensure the trained model file 'model_compressed.pkl' is available to make predictions.")
