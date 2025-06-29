@@ -25,20 +25,6 @@ This is a simple web app built with **Streamlit** that predicts renewable energy
 
 ---
 
-## 🌐 Deploying to Streamlit Cloud
-
-1. Push your project to GitHub.
-2. Go to [Streamlit Cloud](https://streamlit.io/cloud).
-3. Click "New App" and choose your repo.
-4. Make sure the main file is `app.py`.
-
-**Note**: If your `model.pkl` file is bigger than 25MB, you can't upload it directly to GitHub.  
-Instead:
-- Use [Git LFS](https://git-lfs.com/), or  
-- Upload the file to Google Drive / Dropbox and load it from the URL in your code.
-
----
-
 ## 🧠 What It Does
 
 - Takes in renewable energy system features
