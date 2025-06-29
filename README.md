@@ -35,7 +35,7 @@ This is a simple web app built with **Streamlit** that predicts renewable energy
 
 ## 🧰 Requirements
 
-Sample `requirements.txt`:
+`requirements.txt`:
 
 ```txt
 streamlit
